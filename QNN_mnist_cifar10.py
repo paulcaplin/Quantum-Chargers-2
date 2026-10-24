@@ -6,6 +6,9 @@ from torchvision import transforms, datasets
 import torchquantum as tq
 import torchvision.transforms as transforms, torchvision, matplotlib.pyplot as plt
 
+# Install all necessary packages below:
+# Needs python 3.12
+# python -m pip install "git+https://github.com/mit-han-lab/torchquantum.git@8dc3255c51477dd4c28892049571df032c77e2ff"
 
 # Define the quantum-classical model, inheriting from TorchQuantum's QuantumModule
 class QFCModel(tq.QuantumModule):
